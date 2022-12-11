@@ -7,7 +7,7 @@ describe("calcInventoryValue", () => {
       { product: { name: "oranges", price: 5 }, quantity: 5 },
       { product: { name: "mangos", price: 5 }, quantity: 6 }
     ]);
-    expect(value).toBe(75);
+  // inventory.test.ts  expect(value).toBe(75)
   });
   test("two products", () => {
     const value: number = calcInventoryValue([
